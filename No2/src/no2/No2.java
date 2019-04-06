@@ -11,12 +11,12 @@ public class No2 {
         
         for(int x=n; x>=1; x--){
             for(int y=x-1; y>=1; y--){
-                System.out.print(" ");
+                System.out.print("0");
             }
             for(int z=1; z<=((n+1)-x)*2; z++){
                 System.out.print("*");
             }
-            System.out.println();
+            System.out.println("0");
         }
 
         for(int i=n; i>=1; i--){
@@ -26,7 +26,7 @@ public class No2 {
             for(int j=i*2; j>=1; j--){
                 System.out.print("*");
             }
-            System.out.println();
+            System.out.println("0");
         }
     }  
 }
